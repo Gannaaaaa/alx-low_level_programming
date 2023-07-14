@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /*
- * main - entry point
- * description : positive or negative
- * return : 0 (success)
+ * main: entry point
+ * description: positive or negative
+ * return: 0 (success)
  *
 */
 int main(void)
