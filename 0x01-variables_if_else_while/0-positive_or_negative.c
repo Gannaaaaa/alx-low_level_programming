@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main: Entry point
+ * main - Entry point
  * Description: false or true validation
  * Return: 0 (success)
 */
