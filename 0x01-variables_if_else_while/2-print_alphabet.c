@@ -3,17 +3,21 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
- */
+ * Description: print all alphabet letters
+ *
+ * Return: Always  0 (success)
+*/
+
 int main(void)
 {
-int i;
+	char ch = 'a';
 
-for (i = 97; i <= 122; i++)
-{
-putchar(i);
-}
-putchar('\n');
+	while (ch <= 'z')
+	{
+		putchar(ch);
+		ch++;
+	}
+	putchar('\n');
 
-return (0);
+	return (0);
 }
