@@ -1,26 +1,31 @@
 #include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+#include <time.h>
 
-/*
- * main - entry point
- * description : a
- * return : (0) success
+/**
+ * main - Entry point
  *
-*/
-
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-        int n, digit;
+int n, last_digit;
 
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
-        digit = n % 10
-        if (digit > 5)
-                printf("last digit of %i is %i and is greater than 5\n", n, i);
-        else if (digit == 0)
-                printf("last digit of %i is %i and is 0\n", n, i);
-        else if (digit < 6)
-                printf("last digit of %i is %i and is less than 6 and not 0\n", n, i);
-        return (0);
+    /* Intializes random number generator */
+srand(time(0));
+n = rand() - RAND_MAX / 2;
+
+    /* Get the last digit of n */
+last_digit = n % 10;
+
+   /* Print the last digit and its properties */
+printf("Last digit of %d is %d and ", n, last_digit);
+if (last_digit > 5)
+printf("is greater than 5\n");
+else if (last_digit == 0)
+printf("is 0\n");
+else
+printf("is less than 6 and not 0\n");
+
+return (0);
 }
