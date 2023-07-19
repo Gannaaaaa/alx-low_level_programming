@@ -1,19 +1,21 @@
 #include "main.h"
-
 /**
  * main - print _putchar
  * is written by mbah
  * Return: 0
-*/
+ */
+
 int main(void)
 {
-	char word[] = "_putchar";
-	int c;
-
-	for (c = 0; c < 8; c++)
-
-	{
-		_putchar(word[c]); }
-	_putchar('\n');
-	return (0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
+
