@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *for loop to printnumbers - print 0 - 9
+ *print_numbers - print 0 - 9
  *only using -putchar twice
  *Return: Always 0 (Success)
- */
+*/
 
 void print_numbers(void)
 {
