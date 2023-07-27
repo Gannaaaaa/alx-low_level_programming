@@ -23,7 +23,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	if (l + 1 > size_r)
 		return (0);
 	r[l] = '\0';
-	for (l -= l; l >= 0; l--)
+	for (l -= 1; l >= 0; l--)
 	{
 		i--;
 		j--;
