@@ -8,12 +8,13 @@ char *leet(char *n)
 {
 	char s1[] = "AaEeOoTtLl";
 	char s2[] = "4433007711";
+	int i, j;
 
-	for (int i = 0; n[i] != '\0'; i++)
+	for (i = 0; n[i] != '\0'; i++)
 	{
-		for (int j = 0; j < 10; j++)
+		for (j = 0; j < 10; j++)
 		{
-			if (n[i] = s1[j])
+			if (n[i] == s1[j])
 				n[i] = s2[j];
 		}
 	}
