@@ -9,7 +9,7 @@
 char *_strdup(char *str)
 {
 	int i, j = 0;
-	char *p = malloc(sizeof(str));
+	char *p = malloc(sizeof(str) + 1);
 
 	if (p == 0 || str == 0)
 		return (0);
