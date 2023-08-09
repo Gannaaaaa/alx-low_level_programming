@@ -25,8 +25,8 @@ int strln(char *s)
  */
 char *str_concat(char *s1, char *s2)
 {
-	char p;
-	int size1, size2;
+	char *p;
+	int i, size1, size2;
 
 	if (s1 == 0)
 		s1 = "\0";
@@ -35,7 +35,8 @@ char *str_concat(char *s1, char *s2)
 	size1 = strln(s1);
 	size2 = strln(s2);
 	p = malloc(size1 + size2 + 1);
-	if (m == 0)
+	if (p == 0)
+
 		return (0);
 	for (i = 0; i < size1 + size2; i++)
 	{
