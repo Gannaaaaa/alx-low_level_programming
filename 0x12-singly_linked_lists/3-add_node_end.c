@@ -35,5 +35,7 @@ if (node)
 		node = node->next;
 	node->next = new;
 }
+else
+	*head = new;
 return (new);
 }
